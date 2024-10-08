@@ -1,22 +1,11 @@
-<?php
-/*******************************************************************\
- * Exchangerix v2.0
- * http://www.exchangerix.com
- *
- * Copyright (c) 2018 Exchangerix Software. All rights reserved.
- * ---------- Exchangerix IS NOT FREE SOFTWARE ----------
-\*******************************************************************/
-
-	// Error Reporting
-	//@error_reporting(0);
-	
+<?php	
 	date_default_timezone_set(SITE_TIMEZONE); // America/New_York 
 
 	/// MySQL Settings ///
-	define('DB_NAME', 'database_name_here');	// MySQL database name
-	define('DB_USER', 'username_here');			// MySQL database user
-	define('DB_PASSWORD', 'password_here');		// MySQL database password
-	define('DB_HOST', 'localhost');				// MySQL database host name (in most cases, it's localhost)
+	define('DB_NAME', 'exchanges');
+	define('DB_USER', 'exhibition');
+	define('DB_PASSWORD', '0K!625xwa');
+	define('DB_HOST', 'localhost');
 
 
 	define("Exchangerix", true);
